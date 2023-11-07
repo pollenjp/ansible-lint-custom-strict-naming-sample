@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../ansible-lint-custom-strict-naming"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
