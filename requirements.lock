@@ -10,7 +10,7 @@
 ansible-compat==4.1.10
 ansible-core==2.16.0
 ansible-lint==6.22.0
-ansible-lint-custom-strict-naming==0.1.0
+ansible-lint-custom-strict-naming @ file:///home/pollenjp/workdir/github/pollenjp/ansible-lint-custom-strict-naming-sample/../ansible-lint-custom-strict-naming/dist/ansible_lint_custom_strict_naming-0.1.1-py3-none-any.whl
 attrs==23.1.0
 black==23.10.1
 bracex==2.4

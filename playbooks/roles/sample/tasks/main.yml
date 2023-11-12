@@ -11,3 +11,6 @@
 - name: Set vars (roles/)
   ansible.builtin.set_fact:
     sample_role__hoge: "hoge"
+- name: Debug
+  ansible.builtin.debug:
+    msg: "{{ sample_role__hoge }}"

@@ -9,3 +9,9 @@ lint-clean:
 	rm -rf .venv
 	rye sync
 	rye run ansible-lint -vvv
+
+.PHONY: clean-install
+clean-install:
+	${MAKE} -C "../ansible-lint-custom-strict-naming" build
+	rm -rf .venv
+	rye sync
